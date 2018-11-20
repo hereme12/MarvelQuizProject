@@ -1,0 +1,69 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Marvel Quiz Project</string>
+    <!--Title of the App[CHAR LIMIT=NONE]-->
+    <string name="title">Marvel Quiz: Guess The Actors/Actresses</string>
+    <!--Allows user to enter their name[CHAR LIMIT=NONE]-->
+    <string name="name_entry">Enter: First and Last Name</string>
+    <!--Tells user to press button to begin[CHAR LIMIT=20]-->
+    <string name="begin_game">Press To Begin Quiz</string>
+    <!--Title of user's Full Name[CHAR LIMIT=NONE]-->
+    <string name="user_full_name">User Full Name</string>
+    <!--Title to provide question number - Question 1 of 10 [CHAR LIMIT=NONE]-->
+    <string name="question_number">Question <xliff:g example="1" id="round">%d</xliff:g> of 10</string>-->
+    <!--Title to provide total summary of correct answers - Total Correct: 1 of 10 [CHAR LIMIT=NONE]-->
+    <string name="correct_summary">Total Correct: <xliff:g example="1" id="totalCorrect">%d</xliff:g> of 10</string>-->
+    <!--String variable if answer is right[CHAR LIMIT=NONE]-->
+    <string name="correct_message">Correct</string>
+    <!--String variable if answer is wrong[CHAR LIMIT=NONE]-->
+    <string name="incorrect_message">Incorrect</string>
+    <!--States if full right/wrong message for question - Question 1: Correct[CHAR LIMIT=NONE]-->
+    <string name="full_answer">Question <xliff:g example="1" id="numberAsked">%d</xliff:g>: <xliff:g example="Correct" id="response">%s</xliff:g></string>-->
+    <!--States if full message for question if answer is wrong - Question 1: Incorrect[CHAR LIMIT=NONE]-->
+    <string name="full_wrong_answer">Question <xliff:g example="1" id="numberAsked">%d</xliff:g>: <xliff:g example="Incorrect" id="response">%s</xliff:g></string>-->
+    <!--Title of Superhero Name[CHAR LIMIT=NONE]-->
+    <string name="hero_name_1">Ironman</string>
+    <!--Quiz options for answers Actor Name[CHAR LIMIT=NONE]-->
+    <string name="quiz_answer_1">Robert Downey Jr.</string>
+    <!--Title of Superhero Name[CHAR LIMIT=NONE]-->
+    <string name="hero_name_2">Thor</string>
+    <!--Quiz options for answers Actor Name[CHAR LIMIT=NONE]-->
+    <string name="quiz_answer_2">Chris Hemsworth</string>
+    <!--Title of Superhero Name[CHAR LIMIT=NONE]-->
+    <string name="hero_name_3">Loki</string>
+    <!--Quiz options for answers Actor Name[CHAR LIMIT=NONE]-->
+    <string name="quiz_answer_3">Tom Hiddleston</string>
+    <!--Title of Superhero Name[CHAR LIMIT=NONE]-->
+    <string name="hero_name_4">Captain America</string>
+    <!--Quiz options for answers Actor Name[CHAR LIMIT=NONE]-->
+    <string name="quiz_answer_4">Chris Evans</string>
+    <!--Title of Superhero Name[CHAR LIMIT=NONE]-->
+    <string name="hero_name_5">Star Lord</string>
+    <!--Quiz options for answers Actor Name[CHAR LIMIT=NONE]-->
+    <string name="quiz_answer_5">Chris Pratt</string>
+    <!--Title of Superhero Name[CHAR LIMIT=NONE]-->
+    <string name="hero_name_6">Black Widow</string>
+    <!--Quiz options for answers Actor Name[CHAR LIMIT=NONE]-->
+    <string name="quiz_answer_6">Scarlett Johansson</string>
+    <!--Title of Superhero Name[CHAR LIMIT=NONE]-->
+    <string name="hero_name_7">Gamora</string>
+    <!--Quiz options for answers Actor Name[CHAR LIMIT=NONE]-->
+    <string name="quiz_answer_7">Zoe Saldana</string>
+    <!--Title of Superhero Name[CHAR LIMIT=NONE]-->
+    <string name="hero_name_8">Pepper Potts</string>
+    <!--Quiz options for answers Actor Name[CHAR LIMIT=NONE]-->
+    <string name="quiz_answer_8">Gwyneth Paltrow</string>
+    <!--Title of Superhero Name[CHAR LIMIT=NONE]-->
+    <string name="hero_name_9">Captain Marvel</string>
+    <!--Quiz options for answers Actor Name[CHAR LIMIT=NONE]-->
+    <string name="quiz_answer_9">Brie Larson</string>
+    <!--Title of Superhero Name[CHAR LIMIT=NONE]-->
+    <string name="hero_name_10">Nebula</string>
+    <!--Quiz options for answers Actor Name[CHAR LIMIT=NONE]-->
+    <string name="quiz_answer_10">Karen Gillan</string>
+    <!--Tells user to press button to submit answer[CHAR LIMIT=20]-->
+    <string name="submit_answer">Submit Answer</string>
+    <string name="question_correct">Number of Answers Correct</string>
+    <string name="answer_list">List of Responses</string>
+    <string name="reset">Press To Reset</string>
+
+</resources>

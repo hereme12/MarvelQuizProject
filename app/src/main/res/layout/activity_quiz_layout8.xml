@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".quiz_layout">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/HeaderText"
+            android:text="@string/title" />
+
+        <TextView
+            android:id="@+id/question_number_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/HeaderText"
+            android:text="@string/question_number" />
+
+        <TextView
+            android:id="@+id/full_name_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/HeaderText"
+            android:text="@string/user_full_name" />
+
+        <ImageView
+            android:id="@+id/question_image_view_1"
+            style="@style/ImageStyle"
+            android:src="@drawable/avengers9" />
+
+        <TextView
+            android:id="@+id/hero_name_text_view_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/HeaderText"
+            android:text="@string/hero_name_8" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/check_box_1"
+                style="@style/CheckButtonStyle"
+                android:layout_marginStart="32dp"
+                android:layout_marginLeft="32dp"
+                android:text="@string/quiz_answer_8" />
+
+            <CheckBox
+                android:id="@+id/check_box_2"
+                style="@style/CheckButtonStyle"
+                android:text="@string/quiz_answer_10" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/check_box_3"
+                style="@style/CheckButtonStyle"
+                android:layout_marginStart="32dp"
+                android:layout_marginLeft="32dp"
+                android:text="@string/quiz_answer_7" />
+
+            <CheckBox
+                android:id="@+id/check_box_4"
+                style="@style/CheckButtonStyle"
+                android:text="@string/quiz_answer_6" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/submit_answer_button"
+            style="@style/ButtonStyle"
+            android:onClick="submitAnswer"
+            android:text="@string/submit_answer" />
+
+    </LinearLayout>
+
+</ScrollView>

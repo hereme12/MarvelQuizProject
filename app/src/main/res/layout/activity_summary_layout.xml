@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".summary_layout">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/title_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/HeaderText"
+            android:text="@string/title" />
+
+        <TextView
+            android:id="@+id/full_name_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/HeaderText"
+            android:text="@string/user_full_name" />
+
+        <ImageView
+            android:id="@+id/main_imageView"
+            style="@style/ImageStyle"
+            android:src="@drawable/avengers1" />
+
+        <TextView
+            android:id="@+id/question_number_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/HeaderText"
+            android:text="@string/question_correct" />
+
+        <TextView
+            android:id="@+id/responses_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/HeaderText"
+            android:text="@string/answer_list" />
+
+        <Button
+            android:id="@+id/reset_button"
+            style="@style/ButtonStyle"
+            android:onClick="resetQuiz"
+            android:text="@string/reset" />
+
+    </LinearLayout>
+
+</ScrollView>
